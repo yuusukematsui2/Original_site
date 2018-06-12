@@ -1,0 +1,208 @@
+body {
+  background-image: url(../images/top/background.png); }
+  body .logo h1 {
+    text-align: center; }
+  body .pc_navi {
+    text-align: center; }
+    body .pc_navi .pc_navi_li {
+      list-style-type: none;
+      display: none; }
+    body .pc_navi .container {
+      max-width: initial;
+      margin: initial;
+      margin: 0 auto; }
+  body .container .main {
+    position: relative;
+    height: 800px; }
+  body .container .main-image {
+    height: 800px;
+    width: 1905px;
+    z-index: 0;
+    position: absolute; }
+  body .container .sakura {
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 15% auto;
+    top: 0; }
+    @media (max-width: 750px) {
+      body .container .sakura {
+        padding: 200px 0 0 0; } }
+  body .container .concept {
+    text-align: center;
+    margin-top: 174px; }
+  body .container .concept-title {
+    text-align: center;
+    margin-top: 5%; }
+    @media (max-width: 750px) {
+      body .container .concept-title {
+        font-size: 37px;
+        margin-top: 10%; } }
+  body .container .main-concept {
+    position: relative;
+    overflow: hidden;
+    height: 727px; }
+  body .container .ikkai {
+    text-align: center;
+    margin-top: 5%; }
+  body .container .nikai {
+    text-align: center;
+    margin-top: 5%; }
+  body .container .washitsu {
+    text-align: center;
+    margin-top: 5%; }
+  body .container .white-box3 {
+    text-align: center; }
+  body .container .white-box4 {
+    height: 302px;
+    background-color: white;
+    padding: 1px 0 0 0; }
+  body .container .white-box {
+    width: 50%; }
+    @media (max-width: 750px) {
+      body .container .white-box {
+        width: 100%;
+        order: -1; } }
+    body .container .white-box .castle {
+      margin-top: 174px;
+      text-align: center; }
+    body .container .white-box .dotonbori {
+      margin-top: 174px;
+      text-align: center; }
+    body .container .white-box .kuronmon {
+      margin-top: 174px;
+      text-align: center; }
+    body .container .white-box .namba {
+      margin-top: 174px;
+      text-align: center; }
+  body .container .white-box2 {
+    background-color: white;
+    border: 1px solid #cacaca; }
+  body .container .text {
+    text-align: center;
+    line-height: 200%;
+    font-size: 20px;
+    margin: 10px 30% 174px; }
+    @media (max-width: 750px) {
+      body .container .text {
+        margin: 10px 10% 174px; } }
+  body .container .neccesary {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%; }
+    @media (max-width: 750px) {
+      body .container .neccesary {
+        font-size: 37px;
+        margin-top: 10%; } }
+  body .container .contents {
+    display: flex; }
+    @media (max-width: 750px) {
+      body .container .contents {
+        flex-direction: column; } }
+  body .container .front {
+    width: 50%; }
+    @media (max-width: 750px) {
+      body .container .front {
+        width: 100%; } }
+  body .container .main-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: 12% 50%; }
+    @media (max-width: 750px) {
+      body .container .main-image {
+        object-position: 39% 50%; } }
+  body .container .front-image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 100%; }
+  body .container .bounceInRight {
+    height: 100%; }
+  body .container .bounceInLeft {
+    height: 100%; }
+  body .container .osaka {
+    width: 50%; }
+    @media (max-width: 750px) {
+      body .container .osaka {
+        width: 100%; } }
+  body .container .osaka-image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 100%; }
+  body .container .sightseeing {
+    text-align: center; }
+  body .container .sightseeing-images {
+    margin-top: 174px; }
+  body .container .room {
+    text-align: center; }
+  body .container .room-images {
+    margin-top: 174px; }
+  body .container .beds {
+    width: 50%; }
+    @media (max-width: 750px) {
+      body .container .beds {
+        width: 100%; } }
+  body .container .beds-image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 100%; }
+  body .container .address {
+    width: 50%; }
+    @media (max-width: 750px) {
+      body .container .address {
+        width: 100%; } }
+  body .container .access {
+    text-align: center; }
+  body .container .access-images {
+    margin-top: 174px; }
+  body .container .address {
+    margin: 0 auto;
+    position: relative;
+    padding-top: 40.25%; }
+    @media (max-width: 750px) {
+      body .container .address {
+        padding-top: 90.25%; } }
+  body .container .address2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3%; }
+  body .container .address iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important; }
+  body .container .namba-ground-kagetsu {
+    width: 50%; }
+    @media (max-width: 750px) {
+      body .container .namba-ground-kagetsu {
+        width: 100%; } }
+  body footer .footer-box .footer-manu {
+    text-align: center;
+    background-color: #ffb6c1; }
+    body footer .footer-box .footer-manu ul p {
+      font-size: 20px;
+      color: #2f2f2f;
+      margin-bottom: 0px; }
+  body footer .footer-navi {
+    margin: 50px 0; }
+    @media (max-width: 750px) {
+      body footer .footer-navi {
+        text-align: left; } }
+    body footer .footer-navi ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around; }
+      @media (max-width: 750px) {
+        body footer .footer-navi ul {
+          display: initial;
+          list-style-type: square; } }
+    @media (max-width: 750px) {
+      body footer .footer-navi li {
+        border-bottom: 2px solid black; } }
+
+/*# sourceMappingURL=style.css.map */
